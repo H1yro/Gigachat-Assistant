@@ -1,5 +1,5 @@
-key = 'secret'
+key = ""
 
-access_token = 'secret'
+access_token = ""
 
-Test_Python = 'secret'
+Test_Python = ""

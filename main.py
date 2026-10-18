@@ -2,7 +2,6 @@ import telebot
 import requests
 import json
 import config
-import os
 
 TELEGRAM_BOT_TOKEN = config.Test_Python
 GIGACHAT_API_URL = "https://gigachat.devices.sberbank.ru/api/v1/chat/completions"

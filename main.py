@@ -1,7 +1,6 @@
 import telebot
 import requests
 import json
-import random
 import config
 import os
 

@@ -51,7 +51,7 @@ def send_help(message):
 @bot.message_handler(func=lambda message: True)
 def handle_message(message):
     user_message = message.text
-    gigachat_prompt = f"""Пользователь пытается решить задачу: "user_message". Дай ответ на его вопрос."""
+    gigachat_prompt = (f'Пользователь пытается решить задачу: "{user_message}".' "Дай ответ на его вопрос.")
     gigachat_response = get_gigachat_response(gigachat_prompt)
     response_text = f"""Вот что мне удалось найти:{gigachat_response}"""
     
